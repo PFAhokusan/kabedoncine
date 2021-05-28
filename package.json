@@ -1,0 +1,12 @@
+{
+  "name": "kabedoncine",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "author": "AAAR-Salmon",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  }
+}
