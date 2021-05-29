@@ -4,11 +4,16 @@ const client = new Discord.Client();
 
 client.once('ready', () => {
 	console.log('起動したで');
+	client.user.setActivity('うんち', { type: 'LISTENING' });
 });
 
 client.on('message', message => {
+	console.log(message.content);
 	if (message.content.includes('うんち')) {
-		message.channel.send('ぶり。');
+		message.react('839894283062607912');
+	}
+	if (message.content.includes('839894283062607912')) {
+		message.react('839894331711815730');
 	}
 });
 
